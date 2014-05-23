@@ -12,7 +12,7 @@ Given an SFF file, `file.sff` and barcode `barcodes.txt` file you can simply run
 
 The barcode file should be tabulated as shown below:
 
-IonXpress_001	CTAAGGTAAC
+    IonXpress_001	CTAAGGTAAC
 
 
 Options
