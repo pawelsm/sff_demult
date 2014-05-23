@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SYNOPSIS
 ========
 
@@ -83,3 +84,9 @@ This software is provided "as is" without warranty of any kind.
 
 
 May 23, 2013
+=======
+sff_demult
+==========
+
+Demultiplexing SFF files
+>>>>>>> c909a2e367f17ec90a323eed03c6fb6a8b6b7e0f
