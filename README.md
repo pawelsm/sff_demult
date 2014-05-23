@@ -20,11 +20,11 @@ Options
 
 Below is the help message (via `sff_demult -h`) describing its usage & options:
 
-Usage: sff_demult [options] 
-	-h                  This help message
-	-v                  Program and version information
-	-b                  File holding list of barcode sequences
-	-i                  SFF file holding reads
+    Usage: sff_demult [options]
+            -h                  This help message   
+            -v                  Program and version information
+            -b <barcode file>   File holding list of barcode sequences
+            -i <fastq_file>     SFF file holding reads
 
 
 INSTALLATION
@@ -51,12 +51,6 @@ or
 The `sff_demult` executable should be in the working directory.
 Afterwards, you can move the executable to wherever you wish.
 
-NOTES
-=====
-
-Without any given options the default approach is to output trimmed
-sequence and quality values.  This is similar in nature to the sff tools
-produced by 454 Life Sciences/Roche.
 
 AUTHORS
 =======
