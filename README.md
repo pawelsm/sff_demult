@@ -56,8 +56,8 @@ AUTHORS
 =======
 
 Pawel Smialowski
-Some parts of the code were originated by
-Indraniel Das (indraniel@gmail.com)
+
+parts of the code were originated by Indraniel Das
 
 Contributors
 ------------
