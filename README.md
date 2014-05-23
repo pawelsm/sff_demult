@@ -11,6 +11,7 @@ Given an SFF file, `file.sff` and barcode `barcodes.txt` file you can simply run
     sff_demult -i file.sff -b barcodes.txt
 
 The barcode file should be tabulated as shown below:
+
 IonXpress_001	CTAAGGTAAC
 IonXpress_002	TAAGGAGAAC
 
@@ -33,13 +34,13 @@ The installation process currently consists of a very simple Makefile.
 
 Just do the following:
 
-    git clone git://github.com/PawelsLab/sff_demult.git
+    git clone git://github.com/pawelsm/sff_demult.git
     cd sff_demult
     make 
 
 or
     download
-    wget https://github.com/PawelsLab/sff_demult/archive/master.zip
+    wget https://github.com/pawelsm/sff_demult/archive/master.zip
     
     unzip
     unzip master.zip
@@ -68,7 +69,7 @@ The Genome Institute at Washington University
 Contributors
 ------------
 
-* [Pawel Smialowski](https://github.com/PawelsLab)
+* [Pawel Smialowski](https://github.com/pawelsm)
 
 ACKNOWLEDGEMENTS
 ================
@@ -81,5 +82,4 @@ DISCLAIMER
 
 This software is provided "as is" without warranty of any kind.
 
-
-May 23, 2013
+May 23, 2014
