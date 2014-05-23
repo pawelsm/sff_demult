@@ -13,7 +13,7 @@ Given an SFF file, `file.sff` and barcode `barcodes.txt` file you can simply run
 The barcode file should be tabulated as shown below:
 
 IonXpress_001	CTAAGGTAAC
-IonXpress_002	TAAGGAGAAC
+
 
 Options
 -------
@@ -63,8 +63,7 @@ AUTHORS
 
 Pawel Smialowski
 Some parts of the code were originated by
-Indraniel Das (indraniel@gmail.com or idas@wustl.edu)
-The Genome Institute at Washington University
+Indraniel Das (indraniel@gmail.com)
 
 Contributors
 ------------
