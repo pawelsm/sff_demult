@@ -232,17 +232,11 @@ adjustReadNumber() {
 	curr = head;
 	while (curr) {
 		if (curr->bcfile != NULL) {
-			fprintf(stderr, "closing %s \n", curr->bcfileName);
 			fclose(curr->bcfile);
 			uint32_t nreads = be32toh(curr->num_records);
-			fprintf(stderr, "NReads %d \n", curr->num_records);
-			fprintf(stderr, "opening %s for update\n", curr->bcfileName);
-
 			FILE *bcfile;
 			bcfile=fopen (curr->bcfileName, "r+b" );
 			fseek(bcfile, 20, SEEK_SET );//set indicator at nreads
-			// read current value
-
 			// write correct value
 			fwrite(&nreads, sizeof(uint32_t), 1, bcfile);
 			fclose(bcfile);
@@ -251,18 +245,14 @@ adjustReadNumber() {
 	}
 	fclose(unknownfile);
 	uint32_t nreads = be32toh(rest);
-	fprintf(stderr, "NReads %d \n", rest);
-	fprintf(stderr, "opening %s for update\n", unknownfn);
-
 	FILE *bcfile;
 	unknownfile=fopen (unknownfn, "r+b" );
 	fseek(unknownfile, 20, SEEK_SET );//set indicator at nreads
-	// read current value
-
 	// write correct value
 	fwrite(&nreads, sizeof(uint32_t), 1, unknownfile);
 	fclose(unknownfile);
 }
+
 /*
  * Main part.
  */
